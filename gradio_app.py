@@ -22,8 +22,8 @@ def create_gr_app():
                     change_api_key = gr.Button("Update API Key")
             
             with gr.Row():
-                chatbot = gr.Chatbot(value=[], elem_id='chatbot',height=700)
-                show_img = gr.Image(label = 'PDF Preview', tool='select', height=700)
+                chatbot = gr.Chatbot(value=[], elem_id='chatbot',height=600)
+                show_img = gr.Image(label = 'PDF Preview', tool='select', height=600)
         
         with gr.Row():
             with gr.Column(scale=0.6):

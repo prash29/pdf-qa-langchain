@@ -73,7 +73,7 @@ def generate_response(history, query, button):
         {"question": query, "chat_history": chat_history}, return_only_outputs=True
     )
 
-    chat_history.append([query, result["answer"]])
+    chat_history.append((query, result["answer"]))
     n = list(result["source_documents"][0])[1][1]["page"]
 
     for char in result["answer"]:
