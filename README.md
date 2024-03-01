@@ -38,7 +38,7 @@ Click on the local URL to use the interface locally
 Note:
 These chatbots can be made a lot more powerful in many ways:
 - Using a fine-tuned model for the specific task or domain of your requirement
-- Using techniques such as Retrieval Augmented Generation ([RAG])(https://www.pinecone.io/learn/retrieval-augmented-generation/).
+- Using techniques such as Retrieval Augmented Generation ([RAG](https://www.pinecone.io/learn/retrieval-augmented-generation/)).
 - This also runs on a localhost server as opposed to running on a server on the cloud. 
 
 Feel free to fork and edit it to your own liking and reach out if needed!  
