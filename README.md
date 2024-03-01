@@ -33,9 +33,12 @@ To create a public link, set `share=True` in `launch()`.
 Click on the local URL to use the interface locally
 
 3. Copy your OpenAI API key in text box that says "_Enter your OpenAI API Key_".
-4. Upload a local PDF and ask any questions about using the textbox! 
+4. Upload your PDF and ask any questions about using the textbox! 
 
-Note:
+<br/>
+
+**Note:**
+
 These chatbots can be made a lot more powerful in many ways:
 - Using a fine-tuned model for the specific task or domain of your requirement
 - Using techniques such as Retrieval Augmented Generation ([RAG](https://www.pinecone.io/learn/retrieval-augmented-generation/)).
